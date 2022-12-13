@@ -1,6 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-import router from "./routes/usuarioRoute";
+import router from "./routes/usuarioRoute.js";
 import cors from "cors";
 const app = express();
 
